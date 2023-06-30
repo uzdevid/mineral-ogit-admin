@@ -1,0 +1,49 @@
+@media (min-width: 0) and (max-width: 479px) {
+    .footer_menu{
+        display: none;
+    }
+    .top_menu{
+        display: none;
+    }
+    .logo_box{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .footer_menu{
+        display: none;
+    }
+    .top_menu{
+        display: none;
+    }   
+    .card{
+        flex-direction: column !important;
+        flex: auto !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .mobile_menu{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {  
+    .mobile_menu{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) { 
+    .mobile_menu{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .mobile_menu{
+        display: none;
+    }
+}

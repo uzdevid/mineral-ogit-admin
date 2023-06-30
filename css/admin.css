@@ -1,0 +1,85 @@
+.error {
+    color: #e74a3b;
+    font-size: initial;
+    position: relative;
+    line-height: 1;
+    width: 100%;
+    border-color: #e74a3b;
+}
+
+.errorMessage{
+    color: #e74a3b;
+}
+
+.top_menu a{
+    margin-right: 5px;
+}
+
+.top_menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top_menu ul li{
+    display: inline-block;
+}
+
+.image_form_group .form-control{
+    height: auto;
+}
+
+.image_form_group img{
+    max-width: 100px;
+}
+
+.button_column{
+    min-width: 130px;
+    padding: 5px 3px !important;   
+    text-align: center;
+}
+
+.filters input{
+    width: 100%;
+}
+
+table img{
+    max-width: 500px;
+}
+
+.admin_panel_box .card{
+    min-height: 120px;
+}
+
+.admin_panel_box a:hover{
+    text-decoration: none;
+}
+
+.admin_panel_box .card:hover{
+    border-color: #4e73df;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+}
+
+.photo_ckeditor_box figure {
+    width: 100%; /* Ширина области */
+    height: 100px; /* Высота области */
+    margin: 0; /* Обнуляем отступы */
+}
+.photo_ckeditor_box   figure img { 
+    width: 100%; /* Ширина изображений */
+    height: 100%; /* Высота изображении */
+    object-fit: contain; /* Вписываем фотографию в область */
+}
+
+.photo_ckeditor_title{  
+    white-space: nowrap;
+    max-width: 100%;   
+    overflow-x: auto;
+    min-height: 42px;
+    font-size: 12px;
+}
+.new_products_count{
+    color:red;
+}
